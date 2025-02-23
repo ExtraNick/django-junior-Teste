@@ -17,3 +17,11 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
     def __str__(self):
         return self.choice_text
+    # def total_votes(self):
+    #     return self.votes
+    # def has_votes(self):
+    #     if self.votes == 0:
+    #         return False
+    #     else:
+    #         return True
+    
